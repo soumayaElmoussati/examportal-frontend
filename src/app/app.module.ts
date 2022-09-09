@@ -17,6 +17,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
 import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatListModule} from '@angular/material/list';
+import { SidebarComponent } from './pages/admin/sidebar/sidebar.component';
+import { WelcomeComponent } from './pages/admin/welcome/welcome.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,9 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     ProfileComponent,
     SignupComponent,
     DashboardComponent,
-    UserDashboardComponent
+    UserDashboardComponent,
+    SidebarComponent,
+    WelcomeComponent
 
   ],
   imports: [
@@ -40,7 +45,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatFormFieldModule,
     FormsModule,
     MatIconModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatListModule
 
   ],
   providers: [],
